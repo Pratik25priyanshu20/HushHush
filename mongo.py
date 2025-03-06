@@ -3,10 +3,10 @@ import json
 
 
 # Connect to your local MongoDB
-client = MongoClient("mongodb://localhost:27017")
+client = MongoClient("mongodb://127.0.0.1:27017")
 
 # Create or access a database
-db = client["hiring_database"]
+db = client["hiring_databse"]
 
 # Create or access a collection
 collection = db["git_candidates"]
